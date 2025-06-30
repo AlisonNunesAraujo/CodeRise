@@ -1,4 +1,3 @@
-
 import "./styles.css";
 import { TbRocket } from "react-icons/tb";
 import { FaGlobe } from "react-icons/fa";
@@ -8,31 +7,37 @@ import { FaRocket } from "react-icons/fa";
 export default function home() {
   return (
     <div className="home">
-      <div className='container'>
-    <div className='icon'>
-        <TbRocket color='blue' size={45}/>
-    </div>
-    <div className='menu'>
-        <a href='#sobre'>sobre nos</a>
-        <a href="#servicos">Serviços</a>
-        <button>
-           <a href="#contato">Contato</a>
-        </button>
-    </div>
-   </div>
+      <div className="container">
+        <div className="icon">
+          <TbRocket color="blue" size={45} />
+        </div>
+        <div className="menu">
+          <a href="#sobre">Sobre nós</a>
+          <a href="#servicos">Serviços</a>
+          <button>
+            <a href="#contato">Contato</a>
+          </button>
+        </div>
+      </div>
+      
       <div className="info">
         <div className="areaMesg">
-          <h2>Transformamos sua visão em tecnologia</h2>
-          <p>Unimos criatividade e código para entregar soluções digitais que geram resultados reais para o seu negócio.</p>
+          <h2>
+            Transformamos sua visão em tecnologia, Desenvolvemos tecnologia sob
+            medida para a sua visão de negócio.
+          </h2>
+          <p>
+            Unimos criatividade e código para entregar soluções digitais que
+            geram resultados reais para o seu negócio.
+          </p>
         </div>
 
         <div className="areaImg">
-          <TbRocket color='blue' size={280} />
+          <TbRocket color="blue" size={280} />
         </div>
       </div>
 
       <div className="areaSobre" id="sobre">
-
         <div>
           <h1>Sobre nós</h1>
           <h2>
@@ -45,7 +50,7 @@ export default function home() {
           </h2>
         </div>
         <div>
-          <FaRocket color='blue' size={280} />
+          <FaRocket color="blue" size={280} />
         </div>
       </div>
 

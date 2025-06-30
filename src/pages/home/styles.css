@@ -65,7 +65,11 @@ html {
 }
 
 .areaMesg p {
-  margin-left: 5%;
+ padding: 10px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .areaImg {
@@ -214,6 +218,9 @@ html {
 
   .info {
     flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .areaMesg {
     width: 100%;
